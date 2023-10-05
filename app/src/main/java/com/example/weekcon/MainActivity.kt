@@ -32,6 +32,8 @@ class MainActivity : AppCompatActivity() {
         binding.fab.setOnClickListener { view ->
             Snackbar.make(view, "Hope you find your inner peace.", Snackbar.LENGTH_LONG)
                 .setAction("Action", null).show()
+            Snackbar.make(view, "Semoga cintamu tidak bertepuk sebelah tangan.", Snackbar.LENGTH_LONG)
+                .setAction("Action", null).show()
         }
     }
 
